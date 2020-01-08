@@ -1,16 +1,23 @@
 {
-  "name": "csharp-to-typescript",
-  "version": "1.0.0",
-  "description": "```bash brew install openapi-generator ```",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "axios": "^0.19.1",
-    "url": "^0.11.0"
-  },
-  "dependencies": {}
+    "name": "csharp-to-typescript",
+    "version": "1.0.0",
+    "description": "```bash brew install openapi-generator ```",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "parcel build web/index.html --out-dir src/MyWeb/wwwroot"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/react": "^16.9.17",
+        "@types/react-dom": "^16.9.4",
+        "axios": "^0.19.1",
+        "parcel-bundler": "^1.12.4",
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0",
+        "typescript": "^3.7.4",
+        "url": "^0.11.0"
+    },
+    "dependencies": {}
 }

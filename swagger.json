@@ -96,7 +96,8 @@
                   "type": "array",
                   "items": {
                     "$ref": "#/components/schemas/WeatherForecast"
-                  }
+                  },
+                  "nullable": true
                 }
               },
               "application/json": {
@@ -104,7 +105,8 @@
                   "type": "array",
                   "items": {
                     "$ref": "#/components/schemas/WeatherForecast"
-                  }
+                  },
+                  "nullable": true
                 }
               },
               "text/json": {
@@ -112,7 +114,8 @@
                   "type": "array",
                   "items": {
                     "$ref": "#/components/schemas/WeatherForecast"
-                  }
+                  },
+                  "nullable": true
                 }
               }
             }
@@ -131,7 +134,7 @@
             "nullable": true
           }
         },
-        "additionalProperties": false
+        "nullable": true
       },
       "Student": {
         "type": "object",
@@ -148,7 +151,7 @@
             "$ref": "#/components/schemas/Address"
           }
         },
-        "additionalProperties": false
+        "nullable": true
       },
       "WeatherForecast": {
         "type": "object",
@@ -171,7 +174,7 @@
             "nullable": true
           }
         },
-        "additionalProperties": false
+        "nullable": true
       }
     }
   }

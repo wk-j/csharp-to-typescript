@@ -1,5 +1,6 @@
 .DS_Store
 output
+wwwroot
 
 node_modules
 dist

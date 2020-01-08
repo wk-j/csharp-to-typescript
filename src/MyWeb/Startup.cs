@@ -34,11 +34,12 @@ namespace MyWeb {
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
+            // app.UseHttpsRedirection();
 
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseStaticFiles();
 
             app.UseSwagger();
             app.UseSwaggerUI(c => {
