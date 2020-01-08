@@ -2,12 +2,11 @@ import { ModelApiFactory } from "../output/api"
 import { Configuration } from "../output"
 import React from "react"
 import ReactDOM from "react-dom"
+import Axios from "axios"
 
 var config = new Configuration()
-config.accessToken = "Bearer AAA"
 
 var path = location.protocol + '//' + location.hostname + (location.port ? ':' + location.port : '')
-
 var fact = ModelApiFactory(config, path)
 
 export class App extends React.Component {
